@@ -12,6 +12,7 @@
 		57EA54D01E70001800FBF9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EA54CE1E70001800FBF9EE /* Main.storyboard */; };
 		57EA54D21E70001800FBF9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57EA54D11E70001800FBF9EE /* Assets.xcassets */; };
 		57EA54D51E70001800FBF9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EA54D31E70001800FBF9EE /* LaunchScreen.storyboard */; };
+		57EA54DE1E702E8500FBF9EE /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA54DD1E702E8500FBF9EE /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		57EA54D11E70001800FBF9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57EA54D41E70001800FBF9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57EA54D61E70001800FBF9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57EA54DD1E702E8500FBF9EE /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				57EA54CC1E70001800FBF9EE /* ViewController.swift */,
 				57EA54CE1E70001800FBF9EE /* Main.storyboard */,
+				57EA54DD1E702E8500FBF9EE /* CalculatorBrain.swift */,
 				57EA54DC1E7000B300FBF9EE /* Supporting Files */,
 			);
 			path = Calculator;
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57EA54DE1E702E8500FBF9EE /* CalculatorBrain.swift in Sources */,
 				57EA54CD1E70001800FBF9EE /* ViewController.swift in Sources */,
 				57EA54CB1E70001800FBF9EE /* AppDelegate.swift in Sources */,
 			);
